@@ -1,8 +1,8 @@
 ﻿  BinarySearchAlogAndWithRecursion.cpp
   Display_Insert_Display.cpp
-C:\Users\ash68\source\repos\DSA\06-Array_ADT\Display_Insert_Display.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\ash68\source\repos\development-16-graph\06-Array_ADT\Display_Insert_Display.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   LinearSearch.cpp
   mian.cpp
-C:\Users\ash68\source\repos\DSA\06-Array_ADT\mian.cpp(6,6): warning C4101: 'size': unreferenced local variable
+C:\Users\ash68\source\repos\development-16-graph\06-Array_ADT\mian.cpp(6,6): warning C4101: 'size': unreferenced local variable
   Generating Code...
-  06-Array_ADT.vcxproj -> C:\Users\ash68\source\repos\DSA\x64\Debug\06-Array_ADT.exe
+  06-Array_ADT.vcxproj -> C:\Users\ash68\source\repos\development-16-graph\x64\Debug\06-Array_ADT.exe
