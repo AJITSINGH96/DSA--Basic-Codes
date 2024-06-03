@@ -48,4 +48,58 @@ int main() {
 		cout << endl; // Print newline after each vector
 	}
 
+
+	//cycle detection using BFS
+	//cyclic detection using BFS
+	int nodes;
+	cout << "Enter the no. of nodes : " << endl;
+	cin >> nodes;
+	int edges;
+	cout << "Enter the no.of edges : " << endl;
+	cin >> edges;
+	unordered_map<int, list<int>> adjcycle;
+
+	for (int i = 0; i < edges; i++) {
+		int u, v;
+		cout << "enter the first node of edge " << i << " : ";
+		cin >> u;
+		cout << "enter the second node of edge " << i << " : ";
+		cin >> v;
+		g.CreateAdjList(u, v, 0, adjcycle);
+	}
+	g.PrintAdjList(adjcycle);
+	unordered_map<int, bool>visitedcycle;
+	for (int i = 0; i < 1; i++) {
+		if (!visitedcycle[i]) {
+			bool ans = g.IsCycleBFS(i, visitedcycle, adjcycle);
+			if (ans == 1) {
+				cout << "cycle is present";
+
+			}
+		}
+		else {
+			cout << "cycle is not present" << endl;
+		}
+		
+
+	}
+
+
+	cout << "lets try cycle Detection using DFS:" << endl;
+	int parent = -1;
+	for (int i = 0; i < 1; i++) {
+		if (!visitedcycle[i]) {
+			bool ans = g.IsCycleDFS(i, parent, visitedcycle, adjcycle);
+			if (ans == 1) {
+				cout << "cycle is present";
+
+			}
+		}
+		else {
+			cout << "cycle is not present" << endl;
+		}
+
+	}
+	return 0;
+
 }
