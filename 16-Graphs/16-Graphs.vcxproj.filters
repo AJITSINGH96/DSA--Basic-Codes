@@ -21,6 +21,9 @@
     <ClCompile Include="CreateGraph_BFS_and_DFS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Cycle_Detection_using_BFS_and_DFS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Graphs.h">

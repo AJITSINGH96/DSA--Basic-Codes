@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CreateGraph_BFS_and_DFS.cpp" />
+    <ClCompile Include="Cycle_Detection_using_BFS_and_DFS.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
