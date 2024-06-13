@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c37b5487-f5ec-45ba-acf0-5f785416073f}</ProjectGuid>
-    <RootNamespace>My16Graphs</RootNamespace>
+    <ProjectGuid>{36887bb3-57c3-42b3-8ff8-b8c4503c0a7c}</ProjectGuid>
+    <RootNamespace>My17ShortestPathInGraphs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,14 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CreateGraph_BFS_and_DFS.cpp" />
-    <ClCompile Include="Cycle_DetectionInDirectedGraph_uisng_DFS.cpp" />
-    <ClCompile Include="Cycle_Detection_using_BFS_and_DFS.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="TopoLogical_Sort_and_CycleDetection_Using_BFS.cpp" />
+    <ClInclude Include="Shortest_in_Graphs.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Graphs.h" />
+    <ClCompile Include="CreateGraph.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shortest_Path.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
