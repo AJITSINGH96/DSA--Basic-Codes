@@ -30,6 +30,5 @@ void ShorttestPathInGraph::PrintAdjListWeight(unordered_map<int, list<pair<int, 
 			cout << "(" << j.first << " , " << j.second << "),";
 		}
 		cout << endl;
-
 	}
 }
